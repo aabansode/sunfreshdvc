@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+    justify-content: space-around;
+  }
+  
+  .text-center {
+    text-align:center;
+  }
+  
+  .text-primary {
+    color: #93cb52;
+  }
+  
+  .bg-light {
+    background: #fff;
+    color: #333;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .bg-primary {
+    background: #93cb52;
+    color: #fff;
+  }
+  
+  .l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
+  
+  .m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+  }
+  
+  .lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .py-1 { padding: 1.5rem 0; }
+  .py-2 { padding: 2rem 0; }
+  .py-3 { padding: 3rem 0; }
+  
+  .p-1 { padding: 1.5rem; }
+  .p-2 { padding: 2rem; }
+  .p-3 { padding: 3rem; }
+  
+  .btn {
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn2 {
+    display: inline-block;
+    color: #fff;
+    background: #93cb52;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: none;
+    flex: 1;
+    text-align: center;
+
+  }
+
+  .btn2:hover {
+    background: #7ab436;
+  }
+
+  .btn2-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  
+  .btn:hover {
+    background: #7ab436;
+  }
+  
+  .btn-dark {
+    background: #333;
+    color: #fff;
+  }
+  
+  .list {
+    margin: 0.5rem 0;
+    list-style: none;
+  }
+  
+  .list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+  }
+  
+/* Navbar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top:0;
+    background: #fff;
+    color: rgb(10, 2, 2);
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+  }
+  
+  #navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    color: rgb(12, 1, 1);
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+  }
+  
+  #navbar ul li a:hover {
+    background: #04011d23;
+    border-radius: 5px;
+  }
+   #lux  {
+    position: absolute;
+    top: 0px;
+    left:5px;
+    right: 0;
+    bottom: 5px;
+    background-color: rgba(0,0,0,0.4);
+      padding: 0;
+      margin: 0;
+      border-radius: 10px;
+  }
+
+
+#showcase {
+  background: #333 url('../img/victor-hughes-i-kp9etCTzA-unsplash.jpg') no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 2rem;
+  /* Overlay */
+  position: absolute;
+  top: 55px;
+  left:0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Section: What We Do */
+#what .items {
+    display: flex;
+    padding: 1rem;
+  }
+#what .items .item {
+    display:flex;
+    flex: 1;
+    text-align:center;
+   
+    padding: 1rem;
+    justify-content: space-around;
+  }
+  #what .items .item .heads{
+    display: inline-flexbox;
+    flex-direction: column;
+    text-align-last: center;
+  }
+  #container11{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+
+}
+#new{
+    margin-left: 25px;
+    padding:0;
+}
+
+
+  
+  
+
+  /* whatsappimage */
+.img1 {
+  display: flex;
+  position: sticky;
+  bottom: 0;
+   left: 0;
+  color: rgb(10, 2, 2);
+  justify-content:space-between;
+  border-radius: 10rem;
+  padding-left: 30rem;
+  margin-bottom: 0.5rem;
+  align-items: center;
+}
+
+.container22{
+  display: flex;
+  flex-direction: column;
+  background-color:#f3f3f3;
+  border-radius: 25px;
+  
+  border: 3px solid #444;
+  
+}
+#lineone{
+ 
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-style: italic ;
+  margin-bottom: 0.5rem;
+  
+  
+}
+
+#line2{
+ 
+  
+  justify-content: space-evenly;
+  font-size: 15px;
+  margin-bottom: 0.5rem;
+  
+}
+
+#line3{
+ 
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-style: italic ;
+  
+  margin-bottom: 0.5rem;
+}
